@@ -1,0 +1,56 @@
+html {
+    background-color: #444;
+}
+
+body {
+    margin: 20px auto;
+    width: 500px;
+    background-color: #fff;
+    font-family: 'CMU Bold';
+    padding: 150px 150px;
+}
+
+.title_page h1 {
+    margin-left: 75px;
+    width: 350px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18pt;
+}
+
+.title_page {
+    width: 500px;
+}
+
+.title_page h3 {
+    display: inline;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+h2, h3 {
+    font-weight: 400;
+}
+
+.title_page p {
+    display: inline;
+}
+
+.title_page .author {
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+
+.title_page .details {
+    padding-bottom: 30px;
+}
+
+.table_of_contents {
+    display: none;
+}
+
+pre code {
+    padding: 0;
+    display: block;
+    font-family: 'CMU Typewriter Text'
+}
