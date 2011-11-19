@@ -26,7 +26,7 @@ Get your self a copy and configure it with npm:
 
 Now, test it:
 
-    $ bin/make-papers.js README.md README.html
+    $ bin/markdown-papers README.md README.html
 
 and it will generate the README.md as a nicely formatted one.
 
