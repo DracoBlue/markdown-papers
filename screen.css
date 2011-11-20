@@ -6,7 +6,7 @@ body {
     margin: 20px auto;
     width: 500px;
     background-color: #fff;
-    font-family: 'CMU Bold';
+    font-family: 'CMU Bold', serif;
     padding: 150px 150px;
 }
 
@@ -52,5 +52,5 @@ h2, h3 {
 pre code {
     padding: 0;
     display: block;
-    font-family: 'CMU Typewriter Text'
+    font-family: 'CMU Typewriter Text', monospace;
 }
