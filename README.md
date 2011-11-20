@@ -68,6 +68,12 @@ Very simple example:
 
 You can also use this `README.md` as example.
 
+## ToDo
+
+* clean up and document code
+* add print style sheet
+* generate .pdf files
+
 ## License
 
 **markdown-papers** is available under the terms of MIT License.
