@@ -10,6 +10,16 @@ The idea is to use a specific markdown file to write proper formatted papers and
 
 markdown, javascript, llncs
 
+## Example
+
+You can use this `README.md` as source and generate a `.html` by using:
+
+    $ bin/markdown-papers README.md README.html
+
+The output should look like that:
+
+![Example Output](example.png)
+
 ## Pre-Conditions
 
 You need [npm] (http://npmjs.org) and the [CMU Fonts] (http://cm-unicode.sourceforge.net/) installed.
