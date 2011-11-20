@@ -18,7 +18,7 @@ You can use this `README.md` as source and generate a `.html` by using:
 
 The output should look like that:
 
-![Example Output](example.png)
+![Example Output](https://github.com/DracoBlue/markdown-papers/raw/master/example.png)
 
 ## Pre-Conditions
 
