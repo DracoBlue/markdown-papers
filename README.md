@@ -22,7 +22,7 @@ The output should look like that:
 
 ## Pre-Conditions
 
-You need [npm] (http://npmjs.org) and the [CMU Fonts] (http://cm-unicode.sourceforge.net/) installed.
+You need [node.js] (http://nodejs.org),  [npm] (http://npmjs.org) and the [CMU Fonts] (http://cm-unicode.sourceforge.net/) installed.
 
 ## Installation
 
