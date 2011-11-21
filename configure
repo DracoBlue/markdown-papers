@@ -4,3 +4,4 @@ cd `dirname $0`
 
 npm install jsdom
 npm install markdown
+npm install vows
