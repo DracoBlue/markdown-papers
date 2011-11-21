@@ -24,6 +24,11 @@ The output should look like that:
 
 You need [node.js] (http://nodejs.org),  [npm] (http://npmjs.org) and the [CMU Fonts] (http://cm-unicode.sourceforge.net/) installed.
 
+### node.js Dependencies
+
+* jsdom
+* markdown
+
 ## Installation
 
 It's quite simple to test the current version.
