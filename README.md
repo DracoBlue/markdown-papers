@@ -22,12 +22,19 @@ The output should look like that:
 
 ## Pre-Conditions
 
-You need [node.js] (http://nodejs.org),  [npm] (http://npmjs.org) and the [CMU Fonts] (http://cm-unicode.sourceforge.net/) installed.
+You need [node.js] (http://nodejs.org),  [npm] (http://npmjs.org) and the [CMU Fonts] (http://cm-unicode.sourceforge.net/) (optional, will fallback to default serif font) installed.
 
 ### node.js Dependencies
 
-* jsdom
-* markdown
+* [jsdom] (https://github.com/tmpvar/jsdom)
+* [markdown] (https://github.com/evilstreak/markdown-js)
+* [vows] (http://vowsjs.org/) (for tests)
+
+Use
+
+    $ ./configure
+
+to automaticly resolve those by using [npm] (http://npmjs.org).
 
 ## Installation
 
