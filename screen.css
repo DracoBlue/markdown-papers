@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    font-family: 'CMU Bold', serif;
+    font-family: 'CMU Serif', serif;
     margin: 20px auto;
 }
 
@@ -11,6 +11,7 @@ body {
     text-align: center;
     font-weight: normal;
     font-size: 18pt;
+    font-family: 'CMU Serif Extra', serif;
 }
 
 .title_page {
@@ -19,12 +20,13 @@ body {
 
 .title_page h3 {
     display: inline;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1em;
 }
 
 h2, h3, h4, h5, h6 {
     font-weight: 400;
+    font-family: 'CMU Serif Extra', serif;
 }
 
 .title_page p {
