@@ -1,13 +1,57 @@
-html {
-    background-color: #555;
-}
-
 body {
-    margin: 20px auto;
-    width: 500px;
     background-color: #fff;
     font-family: 'CMU Bold', serif;
-    padding: 150px 150px;
+    margin: 20px auto;
+}
+
+
+.title_page h1 {
+    margin-left: 75px;
+    width: 350px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18pt;
+}
+
+.title_page {
+    width: 500px;
+}
+
+.title_page h3 {
+    display: inline;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+.title_page p {
+    display: inline;
+}
+
+.title_page .author {
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+
+.title_page .details {
+    padding-bottom: 30px;
+}
+
+.table_of_contents {
+    display: none;
+}
+
+pre code {
+    padding: 0;
+    display: block;
+    font-family: 'CMU Typewriter Text', monospace;
+}
+
+#outline {
+    background-color: #333;
     box-shadow: 0px 3px 8px #000;
     -moz-box-shadow: 0px 3px 8px #000;
     -webkit-box-shadow: 0px 3px 8px #000;
@@ -56,4 +100,25 @@ pre code {
     padding: 0;
     display: block;
     font-family: 'CMU Typewriter Text', monospace;
+}
+
+@media screen {
+    html {
+        background-color: #555;
+    }
+
+    body {
+        width: 500px;
+        padding: 150px 150px;
+        box-shadow: 0px 3px 8px #000;
+        -moz-box-shadow: 0px 3px 8px #000;
+        -webkit-box-shadow: 0px 3px 8px #000;
+    }
+}
+
+@media print {
+    body {
+        padding: 150px 0 0 0;
+        width: 500px;
+    }
 }
