@@ -50,13 +50,6 @@ pre code {
     font-family: 'CMU Typewriter Text', monospace;
 }
 
-#outline {
-    background-color: #333;
-    box-shadow: 0px 3px 8px #000;
-    -moz-box-shadow: 0px 3px 8px #000;
-    -webkit-box-shadow: 0px 3px 8px #000;
-}
-
 .title_page h1 {
     margin-left: 75px;
     width: 350px;
