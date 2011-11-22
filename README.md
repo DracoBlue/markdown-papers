@@ -63,7 +63,7 @@ Even though this is still work in progress, here are the current  rules for the 
 
 Very simple example:
 
-	 # My Paper
+    # My Paper
     Mr. Author
     
     ### Abstract
