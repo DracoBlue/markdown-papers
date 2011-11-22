@@ -1,5 +1,5 @@
 html {
-    background-color: #444;
+    background-color: #555;
 }
 
 body {
@@ -8,6 +8,9 @@ body {
     background-color: #fff;
     font-family: 'CMU Bold', serif;
     padding: 150px 150px;
+    box-shadow: 0px 3px 8px #000;
+    -moz-box-shadow: 0px 3px 8px #000;
+    -webkit-box-shadow: 0px 3px 8px #000;
 }
 
 .title_page h1 {
