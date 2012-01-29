@@ -14,8 +14,7 @@ body {
 }
 
 .title_page h1 {
-    margin-left: 15px;
-    width: 660px;
+    width: 740px;
     text-align: center;
     font-weight: normal;
     font-size: 18pt;
@@ -23,7 +22,7 @@ body {
 }
 
 .title_page {
-    width: 700px;
+    width: 740px;
 }
 
 .content h2,
