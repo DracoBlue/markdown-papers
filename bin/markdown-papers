@@ -3,17 +3,51 @@
 var markdown_papers = require('./../lib/markdown-papers');
 var fs = require("fs");
 var util = require("util");
-var file_name = process.argv[2];
-var target_file_name = process.argv[3];
 
-if (!file_name) {
+var filenames = [];
+var options = {};
+var next_is_option = false;
+var next_option_key = null;
+var everything_is_file = false;
+
+for (var i = 2; i < process.argv.length; i++) {
+    var parameter = process.argv[i];
+    if (!everything_is_file) {
+        if (next_is_option) {
+            options[next_option_key] = parameter;
+            next_is_option = false;
+        } else {
+            if (parameter === '--') {
+                everything_is_file = true;
+            } else {
+                if (parameter.substr(0, 2) === '--') {
+                    next_is_option = true;
+                    next_option_key = parameter.substr(2);
+                } else {
+                    filenames.push(parameter);
+                }
+            }
+        }
+    } else {
+        filenames.push(parameter);
+    }
+}
+
+if (filenames.length < 1) {
     util.puts('No filename given.');
     util.puts('Correct usage: ' + process.argv[0] + ' ' + process.argv[1] + ' inputfile.md [outputfile.html]');
     process.exit(1);
 }
 
+var file_name = filenames[0];
+var target_file_name = filenames[1] || null;
+
+if (!options.template) {
+    options.template = 'default';
+}
+
 var markdown_content = fs.readFileSync(file_name).toString();
-markdown_papers.convertMarkdownToHtml(markdown_content, function(error, result_html) {
+markdown_papers.convertMarkdownToHtml(markdown_content, options.template, function(error, result_html) {
     /*
      * If second parameter is given, write it to file. Otherwise
      * output it.

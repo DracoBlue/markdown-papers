@@ -52,6 +52,14 @@ Now, test it:
 
 and it will generate the README.md as a nicely formatted one.
 
+## Command line option: --template
+
+If you want to use a different template (located at `lib/templates/*.html`), you must use the `--template` option.
+
+    $ bin/markdown-papers --template twocol README.md README.html
+
+This will convert the `.md`-File by using the `lib/templates/twocol.html` template. You could put your own templates into that folder to make them available for the `markdown-papers` script.
+
 ## Rules for the .md-File
 
 Even though this is still work in progress, here are the current  rules for the document.
@@ -93,6 +101,7 @@ You can also use this `README.md` as example.
  * renamed `screen.css` to `screen.default.css`
  * added test for template without abstract+keywords
  * added first test for twocol-layout
+ * added command line option --template
 
 ## License
 
