@@ -1,0 +1,109 @@
+body {
+    background-color: #fff;
+    font-family: 'CMU Serif', serif;
+    margin: 20px auto;
+}
+
+.twocol {
+    column-count: 2;
+    column-gap: 20px;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+}
+
+.title_page h1 {
+    margin-left: 15px;
+    width: 660px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+
+.title_page {
+    width: 700px;
+}
+
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    font-weight: normal;
+    font-variant: sans-serif;
+    text-transform: uppercase;
+}
+
+.title_page_meta h3 {
+    font-weight: bold;
+    margin: 0;
+    font-family: serif;
+    font-size: 1em;
+}
+
+.title_page_meta .abstract h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.title_page_meta p {
+    display: inline;
+}
+
+.author {
+    text-align: center;
+    padding: 10px 0 30px 0;
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+
+.author em {
+    font-size: 13pt;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.author p {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    white-space: pre;
+    vertical-align: top;
+}
+
+.title_page_meta .details {
+    padding-bottom: 30px;
+}
+
+.table_of_contents {
+    display: none;
+}
+
+pre code {
+    padding: 0;
+    display: block;
+    font-family: 'CMU Typewriter Text', monospace;
+}
+
+@media screen {
+    html {
+        background-color: #555;
+    }
+
+    body {
+        width: 740px;
+        padding: 90px 40px;
+        box-shadow: 0px 3px 8px #000;
+        -moz-box-shadow: 0px 3px 8px #000;
+        -webkit-box-shadow: 0px 3px 8px #000;
+    }
+}
+
+@media print {
+    body {
+        padding: 0 0 0 0;
+        width: 740px;
+    }
+}

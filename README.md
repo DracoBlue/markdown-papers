@@ -92,6 +92,7 @@ You can also use this `README.md` as example.
  * added `MarkdownPaper#setTemplate(template_name)`, which loads `templates/{template_name}.html`.
  * renamed `screen.css` to `screen.default.css`
  * added test for template without abstract+keywords
+ * added first test for twocol-layout
 
 ## License
 
