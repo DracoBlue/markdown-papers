@@ -86,6 +86,13 @@ You can also use this `README.md` as example.
 * add print style sheet
 * generate .pdf files
 
+## Changelog
+
+* 2012/29/01
+ * added `MarkdownPaper#setTemplate(template_name)`, which loads `templates/{template_name}.html`.
+ * renamed `screen.css` to `screen.default.css`
+ * added test for template without abstract+keywords
+
 ## License
 
 **markdown-papers** is available under the terms of MIT License.
